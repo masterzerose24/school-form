@@ -1,0 +1,40 @@
+$primary: #fff;
+$secondary: #333;
+
+.layout { 
+    background: $primary;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 100px auto 50px;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background: $secondary;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    box-shadow: 0 3px rgba(0,0,0,0.2);
+    border-bottom: 1px solid white;
+    min-height: 100px;
+    color: white;
+}
+
+.footer {
+    background: $secondary;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.content {
+    background: $primary;
+    height: 100%;
+    width: 100%;
+    justify-self: center;
+}
