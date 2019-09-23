@@ -1,0 +1,20 @@
+.form-navigator {
+  display: grid;
+  grid-template-rows: 100px auto 100px;
+  height: 100%;
+}
+
+.stepper {
+}
+.form {
+	margin-left: 13vw;
+	margin-right: 13vw;
+}
+
+.steps-navigator {
+  justify-self: center;
+
+  .previous {
+    margin-right: 5em;
+  }
+}

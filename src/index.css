@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+app {
+  background: #209cee;
+  padding: 30px;
+  height: 100vh;
+}
+
+a {
+  font-size: 19px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+  color: #209cee;
+  border-radius: 3px;
+  transition: all 1s;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  background: #555;
+  padding: 3px;
+  color: white;
+}
