@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/masterzerose24/school-form/static/css/main.7ac5486e.chunk.css",
-    "main.js": "/masterzerose24/school-form/static/js/main.e0fdc9f0.chunk.js",
-    "main.js.map": "/masterzerose24/school-form/static/js/main.e0fdc9f0.chunk.js.map",
-    "runtime~main.js": "/masterzerose24/school-form/static/js/runtime~main.e97efdfb.js",
-    "runtime~main.js.map": "/masterzerose24/school-form/static/js/runtime~main.e97efdfb.js.map",
-    "static/js/2.f53196a2.chunk.js": "/masterzerose24/school-form/static/js/2.f53196a2.chunk.js",
-    "static/js/2.f53196a2.chunk.js.map": "/masterzerose24/school-form/static/js/2.f53196a2.chunk.js.map",
-    "index.html": "/masterzerose24/school-form/index.html",
-    "precache-manifest.5536a8821034f309b59c7b1b8909a291.js": "/masterzerose24/school-form/precache-manifest.5536a8821034f309b59c7b1b8909a291.js",
-    "service-worker.js": "/masterzerose24/school-form/service-worker.js",
-    "static/css/main.7ac5486e.chunk.css.map": "/masterzerose24/school-form/static/css/main.7ac5486e.chunk.css.map"
+    "main.css": "/school-form/static/css/main.7ac5486e.chunk.css",
+    "main.js": "/school-form/static/js/main.b6ccb3ad.chunk.js",
+    "main.js.map": "/school-form/static/js/main.b6ccb3ad.chunk.js.map",
+    "runtime~main.js": "/school-form/static/js/runtime~main.09b4137d.js",
+    "runtime~main.js.map": "/school-form/static/js/runtime~main.09b4137d.js.map",
+    "static/js/2.f53196a2.chunk.js": "/school-form/static/js/2.f53196a2.chunk.js",
+    "static/js/2.f53196a2.chunk.js.map": "/school-form/static/js/2.f53196a2.chunk.js.map",
+    "index.html": "/school-form/index.html",
+    "precache-manifest.1eab742ee6ab4c7bd5eabcb3815bad0f.js": "/school-form/precache-manifest.1eab742ee6ab4c7bd5eabcb3815bad0f.js",
+    "service-worker.js": "/school-form/service-worker.js",
+    "static/css/main.7ac5486e.chunk.css.map": "/school-form/static/css/main.7ac5486e.chunk.css.map"
   }
 }
