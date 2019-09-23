@@ -5,8 +5,8 @@ import SchoolList from "./Forms/SchoolList";
 import InfoForm from "./Forms/InfoForm";
 import ConfirmationPage from "./Forms/ConfirmationPage";
 import { formSections, formTitles } from "util/constants/formSections";
-import "./style.scss";
-import "./Forms/styles.scss";
+import "./FormNavigator.scss";
+import "./Forms/StudentForms.scss";
 
 const FormStepper = props => {
   return (
@@ -70,7 +70,7 @@ const FormSwitcher = props => {
 
 export default class FormNavigator extends Component {
   state = {
-    activeStep: 1
+    activeStep: 0
   };
 
   navigatorClickHandler = isNext => {

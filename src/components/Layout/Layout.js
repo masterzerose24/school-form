@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./style.scss";
+import "./Layout.scss";
 
 const LayoutHeader = () => {
   return (

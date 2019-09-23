@@ -4,16 +4,14 @@
   height: 100%;
 }
 
-.stepper {
-}
 .form {
-	margin-left: 13vw;
-	margin-right: 13vw;
+	margin: 0 15vw;
 }
 
 .steps-navigator {
   justify-self: center;
-
+  align-self: center;
+  
   .previous {
     margin-right: 5em;
   }

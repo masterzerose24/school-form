@@ -55,16 +55,17 @@ const SecondaryAddressContainer = props => {
   );
 };
 
-const TooltipTrigger = () => {
+const TooltipTrigger = (props) => {
+  const { params: {title, message}  } = props
   return (
     <OverlayTrigger
-      trigger="click"
+      trigger="hover"
       placement="top"
       overlay={
         <Popover id={`popover-positioned-top`}>
-          <Popover.Title as="h3">{`Popover top`}</Popover.Title>
+          <Popover.Title as="h3">{`${title}`}</Popover.Title>
           <Popover.Content>
-            <strong>Holy guacamole!</strong> Check this info.
+            <p className="tooltip-message">{message}</p>
           </Popover.Content>
         </Popover>
       }
@@ -78,19 +79,30 @@ const TooltipTrigger = () => {
 
 const ContactContainer = props => {
   const { isGuardianPage } = props;
+  const tooltipMessages = {
+    studentId: {
+      title: 'Student ID',
+      message: 'Please use your student ID given by your school'
+    },
+    email: {
+      title: 'Student Email',
+      message: 'This email will be used to recover your account if you forget your password'
+    }
+  }
+
   const studentFields = (
     <Fragment>
       <Col md="6" className="field">
         <span className="with-tooltip">
           <label htmlFor="studentId">Student ID</label>
-          <TooltipTrigger />
+          <TooltipTrigger params={tooltipMessages.studentId}/>
         </span>
         <input type="text" id="studentId" />
       </Col>
       <Col md="6" className="field">
         <span className="with-tooltip">
           <label htmlFor="email">Email</label>
-          <TooltipTrigger />
+          <TooltipTrigger params={tooltipMessages.email} />
         </span>
         <input type="email" id="email" />
       </Col>
@@ -102,7 +114,7 @@ const ContactContainer = props => {
       <Col md="6" className="field">
         <span className="with-tooltip">
           <label htmlFor="email">Email</label>
-          <TooltipTrigger />
+          <TooltipTrigger params={tooltipMessages.email} />
         </span>
         <input type="email" id="email" />
       </Col>

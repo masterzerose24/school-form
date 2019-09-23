@@ -16,9 +16,9 @@ const School = props => {
 
   return (
     <li>
-      <a href="#" className={`school-label ${props.isSelected ? 'selected' : ''}`} style={styles}>
+      <button className={`school-label ${props.isSelected ? 'selected' : ''}`} style={styles}>
         {props.label}
-      </a>
+      </button>
     </li>
   );
 };

@@ -26,11 +26,16 @@
   }
 
   .school-label {
+    transition: all linear .5s;
     margin-top: 10px;
+    outline: none;
+    background: none;
+    font-size: 24px;
 
-    &.selected {
-      background: #333;
-      color: white;
+    &:focus, &active {
+      background: rgba(63, 81, 181, .4);
+      padding: 3px 10px;
+      border-radius: 5px;
     }
   }
 }

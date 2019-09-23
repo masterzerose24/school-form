@@ -34,3 +34,7 @@ a:hover {
   padding: 3px;
   color: white;
 }
+
+.popover-header {
+  color: #3f51b5;
+}
